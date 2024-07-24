@@ -1,0 +1,34 @@
+{
+	"uni-app": {
+		"scripts": {
+			"dev-h5": {
+				"title": "开发环境h5",
+				"browser": "chrome",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"UNI_APP_URL": "/h5api",
+					"UNI_BASE_URL": "/h5api"
+				},
+				"define": {
+					"DEV-H5": true
+				}
+			},
+			"prod-h5": {
+				"title": "生产环境h5",
+				"BROWSER": "chrome",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"UNI_APP_URL": "https://tea.qingnian8.com/api/bizhi"
+				},
+				"define": {
+					"PROD-H5": true
+				}
+			}
+		}
+	},
+	"dependencies": {
+		"dayjs": "^1.11.11",
+		"unplugin-auto-import": "^0.17.6",
+		"vconsole": "^3.15.1"
+	}
+}

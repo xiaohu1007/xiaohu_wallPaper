@@ -1,0 +1,43 @@
+view, swiper, swiper-item {
+	box-sizing: border-box;
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-wrap: nowrap;
+}
+
+@mixin positon-horizontal-center {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@mixin positon-vertical-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.pageBg {
+	background:
+		linear-gradient(to bottom, transparent, #fff 400rpx),
+		linear-gradient(to right, #f6d365, #fda085);
+	min-height: 100%;
+}
+
+.safe-area-inset-bottom {
+	width: 100%;
+	box-sizing: content-box;
+	padding-bottom: 0 !important;
+	padding-bottom: constant(safe-area-inset-bottom) !important;
+	padding-bottom: env(safe-area-inset-bottom) !important;
+}

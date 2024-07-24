@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/classify/classify",
+    "pages/classList/classList",
+    "pages/preview/preview",
+    "pages/notice/notice",
+    "pages/notice/detail",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小虎的demo",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#9799a5",
+    "selectedColor": "#fdbd7d",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "static/images/tabBar/icon-home.png",
+        "selectedIconPath": "static/images/tabBar/icon-home-light.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "static/images/tabBar/icon-classify.png",
+        "selectedIconPath": "static/images/tabBar/icon-classify-light.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/images/tabBar/icon-user.png",
+        "selectedIconPath": "static/images/tabBar/icon-user-light.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

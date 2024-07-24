@@ -1,0 +1,1 @@
+import{a4 as s,v as t,a5 as a,q as e,a6 as r}from"./index-COjtnlOH.js";const c=()=>{const c=s({initSuccess:!1,YYYY:"2024",MM:"01",DD:"01",HH:"00",mm:"00",ss:"00"});return t((()=>{const s=setInterval((()=>{const s=a();Object.keys(c).forEach((t=>{if("initSuccess"==t)return c[t]=!0;c[t]=s.format(t)}))}),1e3);e((()=>{clearInterval(s)}))})),r(c)};export{c as u};

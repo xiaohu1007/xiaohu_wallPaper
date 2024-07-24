@@ -1,0 +1,92 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : {
+				"navigationBarTitleText" : "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/classify/classify",
+			"style" : {
+				"navigationBarTitleText" : "分类",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/classList/classList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类列表"
+			}
+		},
+		{
+			"path" : "pages/preview/preview",
+			"style" : 
+			{
+				"navigationBarTitleText" : "预览",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/notice/notice",
+			"style" : 
+			{
+				"navigationBarTitleText" : "公告列表"
+			}
+		},
+		{
+			"path" : "pages/notice/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "公告详情"
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小虎的demo",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#9799a5",
+		"selectedColor": "#fdbd7d",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "推荐",
+				"iconPath": "static/images/tabBar/icon-home.png",
+				"selectedIconPath": "static/images/tabBar/icon-home-light.png"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"text": "分类",
+				"iconPath": "static/images/tabBar/icon-classify.png",
+				"selectedIconPath": "static/images/tabBar/icon-classify-light.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/images/tabBar/icon-user.png",
+				"selectedIconPath": "static/images/tabBar/icon-user-light.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
